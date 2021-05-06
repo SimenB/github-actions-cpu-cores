@@ -1,5 +1,6 @@
 # github-actions-cpu-cores
 
+
 Uses [`os.cpus`](https://nodejs.org/api/os.html#os_os_cpus) to figure out how many logical cores are available on the runner.
 
 ```yaml
