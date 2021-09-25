@@ -7,7 +7,7 @@
     "build": "ncc build index.js"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.24.1",
+    "@vercel/ncc": "^0.31.1",
     "prettier": "^2.1.2"
   },
   "dependencies": {
