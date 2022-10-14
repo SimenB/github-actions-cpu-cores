@@ -4,5 +4,5 @@ outputs:
   count:
     description: "The count of available CPU cores"
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
