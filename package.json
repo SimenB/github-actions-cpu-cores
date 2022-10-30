@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "preversion": "yarn build && git add dist/",
     "build": "ncc build index.js"
   },
   "devDependencies": {
