@@ -2817,10 +2817,15 @@ module.exports = require("util");
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-const { cpus } = __nccwpck_require__(37);
+const os = __nccwpck_require__(37);
 const core = __nccwpck_require__(186);
 
-core.setOutput("count", cpus().length);
+const numberOfCpus =
+  typeof os.availableParallelism === "function"
+    ? os.availableParallelism()
+    : os.cpus().length;
+
+core.setOutput("count", numberOfCpus);
 
 })();
 

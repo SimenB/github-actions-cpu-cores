@@ -1,6 +1,6 @@
 # github-actions-cpu-cores
 
-Uses [`os.cpus`](https://nodejs.org/api/os.html#os_os_cpus) to figure out how many logical cores are available on the runner.
+Uses [`os.availableParallelism`](https://nodejs.org/api/os.html#osavailableparallelism) (or [`os.cpus`](https://nodejs.org/api/os.html#os_os_cpus) if `availableParallelism` is unavailable) to figure out how many logical cores are available on the runner.
 
 ```yaml
 name: Node CI
