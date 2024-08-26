@@ -11,9 +11,9 @@
     uuid "^8.3.2"
 
 "@actions/http-client@^2.0.1":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-2.2.2.tgz#4fd561ee9b5b8ebf74cf09cc6c596a677337e382"
-  integrity sha512-2TvX5LskKQzDDQI+bobIDGAjkn0NJiQlg4MTrKnZ8HfQ7nDEUbtJ1ytxPDb2bfk3Hr2XD99X8oAJISAmIoiSAQ==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-2.2.3.tgz#31fc0b25c0e665754ed39a9f19a8611fc6dab674"
+  integrity sha512-mx8hyJi/hjFvbPokCg4uRd4ZX78t+YyRPtnKWwIl+RzNaVuFpQHfmlGVfsKEJN8LwTCvL+DfVgAM04XaHkm6bA==
   dependencies:
     tunnel "^0.0.6"
     undici "^5.25.4"
