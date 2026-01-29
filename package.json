@@ -12,6 +12,6 @@
     "prettier": "^3.0.0"
   },
   "dependencies": {
-    "@actions/core": "^2.0.0"
+    "@actions/core": "^3.0.0"
   }
 }
