@@ -8,7 +8,7 @@
     "build": "ncc build index.mjs"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.0",
+    "@vercel/ncc": "^0.44.0",
     "prettier": "^3.0.0"
   },
   "dependencies": {
